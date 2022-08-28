@@ -1,857 +1,474 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="Centro De Eventos para celebrar cumpleaños ">
-    <meta name="author" content="RG Soluciones Tecnologicas">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="Centro De Eventos Crislu" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content="Eventos Crislu"/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
 
-    <!-- Webpage Title -->
-    <title>Eventos Crislu</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="logo500x500.png">
-</head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-    <!-- end of preloader -->
-    
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Sync</a> -->
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="LogoCrisluSinFondo.png" alt="alternative"></a> 
+        <title>Responsive Website Travel</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Travel</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 best places to visit</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information <br> About The Best Beaches</h2>
+                        <p class="about__description">You can find the most beautiful and pleasant places at the best 
+                            prices with special discounts, you choose the place we will guide you all the way to wait, get your 
+                            place now.
+                        </p>
+                        <a href="#" class="button">Reserve a place</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
             
-            <!-- Mobile Menu Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-awesome fas fa-bars"></span>
-                <span class="navbar-toggler-awesome fas fa-times"></span>
-            </button>
-            <!-- end of mobile menu toggle button -->
-
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#description">DESCRIPTION <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#features">FEATURES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#screens">SCREENS</a>
-                    </li>
-
-                    <!-- Dropdown Menu -->          
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">EXTRA</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="article-details.html"><span class="item-text">ARTICLE DETAILS</span></a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Bali</h2>
+                                <span class="discover__description">24 tours available</span>
+                            </div>
                         </div>
-                    </li>
-                    <!-- end of dropdown menu -->
-                </ul>
-                <span class="nav-item">
-                    <a class="btn-outline-sm page-scroll" href="#download">DOWNLOAD</a>
-                </span>
-            </div>
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
 
-
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <h1>Mobile App Landing Page</h1>
-                        <p class="p-large p-heading">Start focusing on your goals and get more things done with Sync mobile application. It's the first app to harness the power of social connections to help you stay focused and get organized</p>
-                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>DOWNLOAD</a>
-                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i>DOWNLOAD</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/header-iphone.png" alt="alternative">
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-        <div class="deco-white-circle-1">
-            <img src="images/decorative-white-circle.svg" alt="alternative">
-        </div> <!-- end of deco-white-circle-1 -->
-        <div class="deco-white-circle-2">
-            <img src="images/decorative-white-circle.svg" alt="alternative">
-        </div> <!-- end of deco-white-circle-2 -->
-        <div class="deco-blue-circle">
-            <img src="images/decorative-blue-circle.svg" alt="alternative">
-        </div> <!-- end of deco-blue-circle -->
-        <div class="deco-yellow-circle">
-            <img src="images/decorative-yellow-circle.svg" alt="alternative">
-        </div> <!-- end of deco-yellow-circle -->
-        <div class="deco-green-diamond">
-            <img src="images/decorative-green-diamond.svg" alt="alternative">
-        </div> <!-- end of deco-yellow-circle -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
-
-
-    <!-- Small Features -->
-    <div class="cards-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <i class="fas fa-users"></i>
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Hawaii</h2>
+                                <span class="discover__description">15 tours available</span>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Identify Goals</h5>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Hvar</h2>
+                                <span class="discover__description">18 tours available</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Whitehaven</h2>
+                                <span class="discover__description">32 tours available</span>
+                            </div>
                         </div>
                     </div>
-                    <!-- end of card -->
+                </div>
+            </section>
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image green">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Situation Analysis</h5>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image red">
-                            <i class="fas fa-cog"></i>
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20</h2>
+                            <span class="experience__description">Year <br> Experience</span>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Tasks Settings</h5>
-                        </div>
-                    </div>
-                    <!-- end of card -->
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image yellow">
-                            <i class="fas fa-comments"></i>
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Complete <br> tours</span>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Social Interaction</h5>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Tourist <br> Destination</span>
                         </div>
                     </div>
-                    <!-- end of card -->
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image blue">
-                            <i class="fas fa-rocket"></i>
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Get Things Done</h5>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of small features -->
-
-
-    <!-- Description 1 -->
-    <div id="description" class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/description-1-app.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Organize Your Time And Start Getting Results</h2>
-                        <p>Sync is the first mobile app on the market to harness the power of social connections to help you stop procrastinating and start getting things done. Give it a try and see the changes right away</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Analyse and evaluate your current status and productivity</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Begin monitoring your day to day routine with Sync app</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">See the improved results in no more than a couple of weeks</div>
-                            </li>
-                        </ul>
-                        <a class="btn-solid-reg popup-with-move-anim" href="#description-1-details-lightbox">LIGHTBOX</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of description 1 -->
-
-    
-    <!-- Description 1 Details Lightbox -->
-	<!-- Details Lightbox -->
-	<div id="description-1-details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-        <div class="row">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-			<div class="col-lg-8">
-                <div class="image-container">
-                    <img class="img-fluid" src="images/description-1-details-lightbox.jpg" alt="alternative">
-                </div> <!-- end of image-container -->
-			</div>
-			<div class="col-lg-4">
-                <h3>Goals Setting</h3>
-				<hr>
-                <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
-                <h4>User Feedback</h4>
-                <p>This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
-                <ul class="list-unstyled li-space-lg">
-                    <li class="media">
-                        <i class="far fa-check-square"></i><div class="media-body">Splash screen panel</div>
-                    </li>
-                    <li class="media">
-                        <i class="far fa-check-square"></i><div class="media-body">Statistics graph report</div>
-                    </li>
-                    <li class="media">
-                        <i class="far fa-check-square"></i><div class="media-body">Events calendar layout</div>
-                    </li>
-                    <li class="media">
-                        <i class="far fa-check-square"></i><div class="media-body">Location details screen</div>
-                    </li>
-                    <li class="media">
-                        <i class="far fa-check-square"></i><div class="media-body">Onboarding steps interface</div>
-                    </li>
-                </ul>
-                <a class="btn-solid-reg mfp-close page-scroll" href="#download">DOWNLOAD</a> <button class="btn-outline-reg mfp-close as-button" type="button">BACK</button>
-			</div>
-		</div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of details lightbox -->
-    <!-- end of description 1 details lightbox -->
-
-
-
-    <!-- Description 2 -->
-    <div class="tabs">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="tabs-container">
-
-                        <!-- Tabs Links -->
-                        <ul class="nav nav-tabs" id="cedoTabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="far fa-clock"></i>Schedule</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-list"></i>Tracking</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="far fa-calendar-alt"></i>Organize</a>
-                            </li>
-                        </ul>
-                        <!-- end of tabs links -->
                         
-                        <!-- Tabs Content -->
-                        <div class="tab-content" id="cedoTabsContent">
-                            <!-- Tab -->
-                            <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                                <p><strong>Schedule tasks</strong> to keep track of their completion. Sync provides multiple scheduling options including alarms and reminders.</p>
-                                <ul class="list-unstyled li-space-lg">
-                                    <li class="media">
-                                        <i class="far fa-check-square"></i>
-                                        <div class="media-body">You can always add new tasks or change the settings of existing ones in your calendar view or the app control panel</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="far fa-check-square"></i>
-                                        <div class="media-body">It's easy to stay focused on your most important daily activities that will get you closer to meeting your goals</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="far fa-check-square"></i>
-                                        <div class="media-body">Use phone reminders to free up your long term memory which will reduce stress and make you more productive</div>
-                                    </li>
-                                </ul>
-                                <a class="btn-solid-reg page-scroll" href="terms-conditions.html">TERMS</a> <a class="btn-outline-reg page-scroll" href="privacy-policy.html">PRIVACY</a>
-                            </div> <!-- end of tab-pane -->
-                            <!-- end of tab -->
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                            <!-- Tab -->
-                            <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                                <p><strong>Keep track of everything</strong> and analyse your progress while using the app. In less than a month you should be seeing improved results when it comes to time management and task prioritization</p>
-                                <p><strong>Anyone can enjoy the app</strong> no matter their gender, age, occupation or location in the world. Sync's algorithms have been built to be flexible and functional for any person in the world</p>
-                                <p><strong>Achieve the impossible</strong> just by carefully monitoring your progress and keeping the app updated with daily operations. It's easier than you think and it only takes a couple of minutes</p>
-                                <a class="red" href="terms-conditions.html">Terms & Conditions >></a>
-                            </div> <!-- end of tab-pane -->
-                            <!-- end of tab -->
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
 
-                            <!-- Tab -->
-                            <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                                <p><strong>Use the power of social interactivity</strong> to keep you motivated and focused on your daily and long term goals. It's revolutionary</p>
-                                <ul class="list-unstyled li-space-lg">
-                                    <li class="media">
-                                        <i class="far fa-check-square"></i>
-                                        <div class="media-body">Commiting to something in front of a crowd gives you little room to walk back on your promise and makes you push on</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="far fa-check-square"></i>
-                                        <div class="media-body">No more frustrations of loosing focus and not being efficient. Sync main purpose is to solve just that and make you happy</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="far fa-check-square"></i>
-                                        <div class="media-body">It's the first mobile app that can turn you in a better organized person without the pressure of failing like other systems</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="far fa-check-square"></i>
-                                        <div class="media-body">Recognized by a lot of trainers and life coaches Sync is the number one tool they recommend time management</div>
-                                    </li>
-                                </ul>
-                            </div> <!-- end of tab-pane -->
-                            <!-- end of tab -->
-                        </div> <!-- end of tab-content -->
-                        <!-- end of nav tabs content -->
-                    
-                    </div> <!-- end of tabs-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/description-2-app.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of tabs -->
-    <!-- end of description 2 -->
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p>
 
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
 
-    <!-- Features -->
-    <div id="features" class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Special Features</h2>
-                    <p class="p-heading">Sync's features are designed to help you improve your time management skills and become a better organized person. Organize your tasks, schedule your appointments and meet your personal development goals with Sync</p>
-                </div> <!-- end of div -->
-            </div> <!-- end of div -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <ul class="list-unstyled li-space-lg first">
-                        <li class="media">
-                            <span class="fa-stack">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-users fa-stack-1x"></i>
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Place</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
                             </span>
-                            <div class="media-body">
-                                <h4>Goal Setting</h4>
-                                <p>Like any self improving process, everything starts with setting your goals and committing to them</p>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Bali</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">$2499</span>
                             </div>
-                        </li>
-                        <li class="media">
-                            <span class="fa-stack">
-                                <i class="fas fa-circle fa-stack-2x green"></i>
-                                <i class="fas fa-code fa-stack-1x"></i>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
                             </span>
-                            <div class="media-body">
-                                <h4>Situation Analysis</h4>
-                                <p>Sync provides a well designed and ergonomic visual editor for you to edit your quick notes</p>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Bora Bora</h3>
+                                <span class="place__subtitle">Polinesia</span>
+                                <span class="place__price">$1599</span>
                             </div>
-                        </li>
-                        <li class="media">
-                            <span class="fa-stack">
-                                <i class="fas fa-circle fa-stack-2x red"></i>
-                                <i class="fas fa-cog fa-stack-1x"></i>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
                             </span>
-                            <div class="media-body">
-                                <h4>Tasks Settings</h4>
-                                <p>Each option packaged in the app's menus is provided in order to improve you personally</p>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Hawaii</h3>
+                                <span class="place__subtitle">EE.UU</span>
+                                <span class="place__price">$3499</span>
                             </div>
-                        </li>
-                    </ul>
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <img class="img-fluid" src="images/features-app.jpg" alt="alternative">
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="media">
-                            <span class="fa-stack">
-                                <i class="fas fa-circle fa-stack-2x yellow"></i>
-                                <i class="fas fa-comments fa-stack-1x"></i>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
                             </span>
-                            <div class="media-body">
-                                <h4>Social Interaction</h4>
-                                <p>Schedule your appointments, meetings and periodical evaluations using the tools</p>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Whitehaven</h3>
+                                <span class="place__subtitle">Australia</span>
+                                <span class="place__price">$2499</span>
                             </div>
-                        </li>
-                        <li class="media">
-                            <span class="fa-stack">
-                                <i class="fas fa-circle fa-stack-2x blue"></i>
-                                <i class="fas fa-rocket fa-stack-1x"></i>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
                             </span>
-                            <div class="media-body">
-                                <h4>Get Things Done</h4>
-                                <p>Reading focus mode for long form articles, ebooks and other materials with long text</p>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Hvar</h3>
+                                <span class="place__subtitle">Croacia</span>
+                                <span class="place__price">$1999</span>
                             </div>
-                        </li>
-                        <li class="media">
-                            <span class="fa-stack">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-download fa-stack-1x"></i>
-                            </span>
-                            <div class="media-body">
-                                <h4>Good Foundation</h4>
-                                <p>Get a solid foundation for your self development efforts. Try Sync mobile app for devices</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of features -->
-
-
-    <!-- Screenshots -->
-    <div id="screens" class="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Image Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container image-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-1.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-1.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-2.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-2.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-3.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-3.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-4.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-4.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-5.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-5.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-1.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-6.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-2.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-7.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-3.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-8.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-4.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-9.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-5.jpg" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-10.jpg" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-                                
-                            </div> <!-- end of swiper-wrapper -->
-
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of image slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider -->
-    <!-- end of screenshots -->
-
-
-    <!-- Testimonials -->
-    <div class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>User Testimonials</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <hr class="testimonial-line">
                         </div>
-                        <div class="card-body">
-                            <div class="testimonial-text">I love using Sync for my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills.</div>
-                            <div class="testimonial-author">Rick Jones - Designer</div>
-                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
                     </div>
-                    <!-- end of card -->
+                </div>
+            </section>
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <hr class="testimonial-line">
-                        </div>
-                        <div class="card-body">
-                            <div class="testimonial-text">After trying out a large number of personal coaching apps I decided to give Sync a try and what a wonderful surprise it was.</div>
-                            <div class="testimonial-author">Lynda Marquez - Developer</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <hr class="testimonial-line">
-                        </div>
-                        <div class="card-body">
-                            <div class="testimonial-text">Never dreamed I could learn so fast how to focus on my personal goals and improve my life to levels I never thought possible.</div>
-                            <div class="testimonial-author">Jay Frisco - Marketer</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
-                        <img class="img-fluid" src="images/customer-logo-2.png" alt="alternative">
-                        <img class="img-fluid" src="images/customer-logo-3.png" alt="alternative">
-                        <img class="img-fluid" src="images/customer-logo-4.png" alt="alternative">
-                        <img class="img-fluid" src="images/customer-logo-5.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <hr class="testimonial-line">
-                        </div>
-                        <div class="card-body">
-                            <div class="testimonial-text">I got so much value from using Sync in my daily life for which I am very grateful and would recommend it to everybody</div>
-                            <div class="testimonial-author">Frank Gibson - Manager</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <hr class="testimonial-line">
-                        </div>
-                        <div class="card-body">
-                            <div class="testimonial-text">If you have great goals but can't figure out a way to keep focused then you should definitely give Sync a try and see the results</div>
-                            <div class="testimonial-author">Rita Longmile - Designer</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <hr class="testimonial-line">
-                        </div>
-                        <div class="card-body">
-                            <div class="testimonial-text">I've been looking for a great organizer app for such a long time but now I am really happy that I found Sync. It's beeen working great</div>
-                            <div class="testimonial-author">Jones Smith - Developer</div>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-2 -->
-    <!-- end of testimonials -->
-
-
-    <!-- Statistics -->
-    <div class="counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Counter -->
-                    <div id="counter">
-                        <div class="cell">
-                            <i class="fas fa-users"></i>
-                            <div class="counter-value number-count" data-count="231">1</div>
-                            <p class="counter-info">Happy Users</p>
-                        </div>
-                        <div class="cell">
-                            <i class="fas fa-code green"></i>
-                            <div class="counter-value number-count" data-count="385">1</div>
-                            <p class="counter-info">Issues Solved</p>
-                        </div>
-                        <div class="cell">
-                            <i class="fas fa-cog red"></i>
-                            <div class="counter-value number-count" data-count="159">1</div>
-                            <p class="counter-info">Good Reviews</p>
-                        </div>
-                        <div class="cell">
-                            <i class="fas fa-comments yellow"></i>
-                            <div class="counter-value number-count" data-count="127">1</div>
-                            <p class="counter-info">Case Studies</p>
-                        </div>
-                        <div class="cell">
-                            <i class="fas fa-rocket blue"></i>
-                            <div class="counter-value number-count" data-count="211">1</div>
-                            <p class="counter-info">Orders Received</p>
-                        </div>
-                    </div>
-                    <!-- end of counter -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of statistics -->
-
-
-    <!-- Download -->
-    <div id="download" class="basic-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/download-iphone.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                    <p class="p-large">Do you feel like you're wasting time with small stuff instead of working towards your goals? Start using Sync to organize your time and get a grip on your personal development</p>
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>DOWNLOAD</a>
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i>DOWNLOAD</a>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-        <div class="deco-white-circle-1">
-            <img src="images/decorative-white-circle.svg" alt="alternative">
-        </div> <!-- end of deco-white-circle-1 -->
-        <div class="deco-white-circle-2">
-            <img src="images/decorative-white-circle.svg" alt="alternative">
-        </div> <!-- end of deco-white-circle-2 -->
-        <div class="deco-blue-circle">
-            <img src="images/decorative-blue-circle.svg" alt="alternative">
-        </div> <!-- end of deco-blue-circle -->
-        <div class="deco-yellow-circle">
-            <img src="images/decorative-yellow-circle.svg" alt="alternative">
-        </div> <!-- end of deco-yellow-circle -->
-        <div class="deco-green-diamond">
-            <img src="images/decorative-green-diamond.svg" alt="alternative">
-        </div> <!-- end of deco-yellow-circle -->
-    </div> <!-- end of basic-3 -->
-    <!-- end of download -->
-
-
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-col first">
-                        <h5>About Sync</h5>
-                        <p class="p-small">Sync is a landing page HTML template built with Bootstrap 4 for presenting mobile apps</p>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col second">
-                        <h5>Contact Info</h5>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li class="media">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="media-body">22 Innovation Street, CA, US</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-envelope"></i>
-                                <div class="media-body"><a href="#your-link">office@syncmobile.com</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-phone-alt"></i>
-                                <div class="media-body"><a href="#your-link">+44 376 945 23</a></div>
-                            </li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col third">
-                        <h5>Value Links</h5>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="article-details.html">Article Details</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col fourth">
-                        <h5>Other Apps</h5>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="#your-link">Scientific Calculator</a></li>
-                            <li><a href="#your-link">Advanced Timer</a></li>
-                            <li><a href="#your-link">Music Store</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col fifth">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> <!-- end of footer-col -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
-
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Inovatik</a> - All rights reserved</p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="subscribe__description">Subscribe to our newsletter and get a 
+                            special 30% discount.
+                        </p>
     
-    	
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-</body>
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Travel</h3>
+                        <p class="footer__description">Travel you choose the <br> destination, 
+                            we offer you the <br> experience.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
