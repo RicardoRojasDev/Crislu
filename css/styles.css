@@ -637,9 +637,9 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 20rem;
+    width: 15rem;
 	height: 5rem;
-	margin: 0 0 0 0rem;
+	margin: 0 0 0 1rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
