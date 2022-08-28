@@ -305,7 +305,7 @@ input {
 
 .home__container {
   position: relative;
-  height: calc(100vh - var(--header-height));
+  height:100vh;
   align-content: center;
   row-gap: 3rem;
 }
