@@ -210,6 +210,7 @@ input {
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
+  font-size: var(--h2-font-size);
 }
 
 .nav__toggle {
@@ -307,7 +308,7 @@ input {
   position: relative;
   height: calc(100vh - var(--header-height));
   align-content: center;
-  row-gap: 3rem;
+  row-gap: 7rem;
 }
 
 .home__data-subtitle, 
