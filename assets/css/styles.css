@@ -239,7 +239,7 @@ input {
 .nav__list {
   display: flex;
   flex-direction: column;
-  row-gap: 2.5rem;
+  row-gap: 3rem;
 }
 
 .nav__link {
