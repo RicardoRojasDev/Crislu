@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --biggest-font-size: 4rem;
+    --biggest-font-size: 3rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.25rem;
@@ -232,7 +232,7 @@ input {
     height: 100%;
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
     padding: 3rem;
-    transition: .4s;
+    transition: 1.6s;
   }
 }
 
