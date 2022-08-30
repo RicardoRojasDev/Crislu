@@ -333,7 +333,8 @@ input {
 .home__social {
   display: flex;
   flex-direction: column;
-  row-gap: 1.5rem;
+  row-gap: 1rem;
+
 }
 
 .home__social-link {
