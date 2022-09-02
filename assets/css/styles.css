@@ -317,16 +317,6 @@ input {
 .home__info {
   color: var(--white-color);
 }
-.faceicon{
-  color: blue;
-}
-.instaicon{
-  color: red;
-}
-.whatsappicon{
-  color: green;
-}
-
 .home__data-subtitle {
   display: block;
   font-weight: var(--font-semi-bold);
