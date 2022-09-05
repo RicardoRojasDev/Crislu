@@ -463,7 +463,7 @@ input {
 
 .discover__title, 
 .discover__description {
-  color: var(--white-color);
+  color: rgb(0, 0, 0);
 }
 
 .discover__title {
