@@ -332,7 +332,7 @@ input {
 .home__social {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 0rem;
 
 }
 
