@@ -164,7 +164,7 @@ input {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 4.5rem 0 2.5rem;
+  padding: 3rem 0 2rem 0;
 }
 
 .section__title {
@@ -306,9 +306,9 @@ input {
 
 .home__container {
   position: relative;
-  height: calc(100vh - var(--header-height));
+  height: calc(98vh - var(--header-height));
   align-content: center;
-  row-gap: 7rem;
+  row-gap: 1rem;
 }
 
 .home__data-subtitle, 
@@ -332,7 +332,7 @@ input {
 .home__social {
   display: flex;
   flex-direction: column;
-  row-gap: 0rem;
+  row-gap: 1rem;
 
 }
 
