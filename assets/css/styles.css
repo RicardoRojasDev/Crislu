@@ -337,7 +337,7 @@ input {
 }
 
 .home__social-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   width: max-content;
 }
 
@@ -349,8 +349,8 @@ input {
   column-gap: .5rem;
   position: absolute;
   right: 0;
-  bottom: 1rem;
-  width: 228px;
+  bottom: 1.5rem;
+  width: 290px;
 }
 
 .home__info-title {
