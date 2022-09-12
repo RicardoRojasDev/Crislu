@@ -344,13 +344,13 @@ input {
 .home__info {
   background-color: var(--first-color);
   display: flex;
-  padding: 1.5rem 1rem;
+  padding: 1rem .5rem;
   align-items: center;
-  column-gap: .5rem;
+  column-gap:.5rem;
   position: absolute;
-  right: 0;
-  bottom: 1.5rem;
-  width: 290px;
+  right: -10px;
+  bottom: 1rem;
+  width: 280px;
 }
 
 .home__info-title {
