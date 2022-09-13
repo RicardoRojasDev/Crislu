@@ -302,6 +302,8 @@ input {
   height: 99vh;
   object-fit: cover;
   object-position: 83%;
+  z-index: var(--z-low);
+  opacity: .5;
 }
 
 .home__container {
