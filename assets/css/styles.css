@@ -303,8 +303,9 @@ input {
   object-fit: cover;
   object-position: 83%;
   z-index: var(--z-low);
-  opacity: .5;
+  opacity: .7;
 }
+
 
 .home__container {
   position: relative;
@@ -957,6 +958,7 @@ input {
     width: 470px;
     margin: 0 auto;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -1009,7 +1011,7 @@ input {
     color: var(--text-color);
   }
   .section {
-    padding: 7rem 0 2rem;
+    padding: 8rem 0 1rem 0;
   }
   .home__container {
     height: 100vh;
@@ -1080,7 +1082,15 @@ input {
     margin-right: auto;
   }
   .home__container {
-    grid-template-rows: 2fr .5fr;
+    grid-template-columns: 3fr;
+    grid-template-rows: 2fr;
+    padding: 0 0 5rem 0;
+  }
+  .home {
+    background:url(/assets/img/fondo3.png) center;
+  }
+  .home__img {
+    display: none;
   }
   .home__info {
     width: 328px;
@@ -1093,6 +1103,7 @@ input {
   .home__info-img {
     width: 240px;
   }
+  .home__data i
   .about__img-one {
     width: 230px;
   }
@@ -1147,12 +1158,3 @@ input {
   }
 }
 
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-  body {
-    margin: 0;
-  }
-  .home__container, .home__img {
-    height: 640px;
-  }
-}
