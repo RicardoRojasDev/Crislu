@@ -450,7 +450,9 @@ input {
 .about__img-two:hover {
   transform: var(--img-scale);
 }
-
+.sacarDespues {
+  display: none;
+}
 /*=============== DISCOVER ===============*/
 .discover__card {
   position: relative;
@@ -494,7 +496,8 @@ input {
 
 /*=============== EXPERIENCE ===============*/
 .experience__container {
-  row-gap: 2.5rem;
+ 
+  row-gap: 1rem;
   justify-content: center;
   justify-items: center;
 }
@@ -503,7 +506,7 @@ input {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1rem;
   justify-items: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .experience__number {
@@ -518,7 +521,8 @@ input {
 
 .experience__img {
   position: relative;
-  padding-bottom: 2rem;
+  padding-bottom: 9rem;
+  width: 100%;
 }
 
 .experience__img-one, 
@@ -536,14 +540,20 @@ input {
 }
 
 .experience__overlay:nth-child(1) {
-  width: 263px;
-  margin-right: 2rem;
+  width: 60%;
+  left: 0px;
 }
 
 .experience__overlay:nth-child(2) {
-  width: 120px;
+  width: 50%;
   position: absolute;
-  top: 2rem;
+  top:5rem;
+  right: 0px;
+}
+.experience__overlay:nth-child(3) {
+  width: 100%;
+  position: absolute;
+  top: 18rem;
   right: 0;
 }
 
@@ -1032,6 +1042,9 @@ input {
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+  .sacarDespues {
+    display: block;
   }
   .about__data, .about__title {
     text-align: initial;
