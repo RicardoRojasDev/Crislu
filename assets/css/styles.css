@@ -1086,6 +1086,16 @@ input {
     grid-template-rows: 2fr;
     padding: 0 0 5rem 0;
   }
+  .home__data {
+    text-align: center;
+    padding-top: 120PX;
+  }
+  .home__data h1 {
+    text-align: left
+  }
+  .home__data .button {
+    margin-right: 830px;
+  }
   .home {
     background:url(/assets/img/fondo3.png) center;
   }
@@ -1093,15 +1103,15 @@ input {
     display: none;
   }
   .home__info {
-    width: 328px;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 2rem;
+    width:410px;
+    grid-template-columns: 100px 1fr ;
+    column-gap: 1rem;
   }
   .home__info-title {
     font-size: var(--normal-font-size);
   }
   .home__info-img {
-    width: 240px;
+    width: 250px;
   }
   .home__data i
   .about__img-one {
