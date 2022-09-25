@@ -164,7 +164,7 @@ input {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 3rem 0 2rem 0;
+  padding: 4rem 0 2rem 0;
 }
 
 .section__title {
@@ -232,8 +232,7 @@ input {
     height: 100%;
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
     padding: 3rem;
-    transition: 1.6s;
-  }
+    transition: 1.6s;}
 }
 
 .nav__list {
@@ -1110,7 +1109,7 @@ input {
     margin-right: 830px;
   }
   .home {
-    background:url(/assets/img/fondo3.png) center;
+    background:url(/assets/img/pitina4.jpg) no-repeat center center/cover fixed;
   }
   .home__img {
     display: none;
@@ -1134,17 +1133,22 @@ input {
     width: 290px;
   }
   .discover__card {
-    width: 237px;
+    width: 350px;
   }
   .discover__container {
-    width: 700px;
+    width: 1024px;
+    height: 720px;
   }
   .discover__data {
-    left: 1.5rem;
-    bottom: 2rem;
+    bottom: 11rem;
+    text-align: center;
+    width: 340px;
   }
   .discover__title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
+  }
+  .discover__description {
+    font-size: var(--h3-font-size);
   }
   .experience__content {
     margin: var(--mb-1) 0;
