@@ -317,32 +317,22 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  color: var(--white-color);
-}
+  color: var(--white-color);}
 .home__data-subtitle {
   display: block;
   font-weight: var(--font-semi-bold);
-  margin-bottom: var(--mb-0-75);
-}
-
+  margin-bottom: var(--mb-0-75);}
 .home__data-title {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-2-5);
-}
-
+  margin-bottom: var(--mb-2-5);}
 .home__social {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
-
-}
-
+  row-gap: 1rem;}
 .home__social-link {
   font-size: 1.5rem;
-  width: max-content;
-}
-
+  width: max-content;}
 .home__info {
   background-color: var(--first-color);
   display: flex;
@@ -352,33 +342,21 @@ input {
   position: absolute;
   right: -10px;
   bottom: 2rem;
-  width: 280px;
-}
-
+  width: 280px;}
 .home__info-title {
   display: block;
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
-  margin-bottom: var(--mb-0-75);
-}
-
+  margin-bottom: var(--mb-0-75);}
 .home__info-button {
-  font-size: var(--smaller-font-size);
-}
-
+  font-size: var(--smaller-font-size);}
 .home__info-overlay {
-  overflow: var(--img-hidden);
-}
-
+  overflow: var(--img-hidden);}
 .home__info-img {
   width: 145px;
-  transition: var(--img-transition);
-}
-
+  transition: var(--img-transition);}
 .home__info-img:hover {
-  transform: var(--img-scale);
-}
-
+  transform: var(--img-scale);}
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
@@ -386,11 +364,11 @@ input {
   color: var(--white-color);
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
-  transition: .3s;
-}
+  transition: .3s;}
 
 .button:hover {
   background-color: var(--first-color-alt);
+  border-radius: 10px;
 }
 
 .button--flex {
@@ -580,128 +558,16 @@ input {
 .video__button-icon {
   font-size: 1.2rem;
 }
-/* <div class="place__container container grid">
-                    <!--==================== PLACES CARD 1 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/place1.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Bali</h3>
-                                <span class="place__subtitle">Indonesia</span>
-                                <span class="place__price">$2499</span>
-                            </div>
-                        </div>
-
-                        <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button>
-                    </div>
-
-                    <!--==================== PLACES CARD 2 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/place2.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">5,0</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Bora Bora</h3>
-                                <span class="place__subtitle">Polinesia</span>
-                                <span class="place__price">$1599</span>
-                            </div>
-                        </div>
-
-                        <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button>
-                    </div>
-
-                    <!--==================== PLACES CARD 3 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/place3.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,9</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Hawaii</h3>
-                                <span class="place__subtitle">EE.UU</span>
-                                <span class="place__price">$3499</span>
-                            </div>
-                        </div>
-
-                        <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button>
-                    </div>
-
-                    <!--==================== PLACES CARD 4 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/place4.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Whitehaven</h3>
-                                <span class="place__subtitle">Australia</span>
-                                <span class="place__price">$2499</span>
-                            </div>
-                        </div>
-
-                        <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button>
-                    </div>
-
-                    <!--==================== PLACES CARD 5 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/place5.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Hvar</h3>
-                                <span class="place__subtitle">Croacia</span>
-                                <span class="place__price">$1999</span>
-                            </div>
-                        </div>
-
-                        <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button>
-                    </div>
-                </div> */
 
 /*=============== PLACES ===============*/
-.place__card, .place__img {
-  height: 230px;
+#mapaGrande {
+  display: none;
 }
-
 .place__container {
   grid-template-columns: max-content;
   justify-content: center;
+  text-align: center;
 }
-
 .place__card {
   position: relative;
   overflow: var(--img-hidden);
@@ -1062,6 +928,12 @@ input {
   .discover__container,
   .place__container {
     padding-top: 2rem;
+  }
+  #mapaGrande {
+    display: block;
+  }
+  #mapaChico {
+    display: none;
   }
   .experience__overlay:nth-child(1) {
     width: 363px;
