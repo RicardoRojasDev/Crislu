@@ -826,9 +826,6 @@ input {
     grid-template-columns: .6fr;
     justify-content: center;
   }
-  .place__container {
-    grid-template-columns: repeat(3, max-content);
-  }
   .subscribe__form {
     width: 470px;
     margin: 0 auto;
@@ -836,7 +833,7 @@ input {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 830px) {
   body {
     margin: 0;
   }
